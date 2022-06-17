@@ -6,8 +6,59 @@
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/scripts.js"></script>
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
-    <title>Joey's Pizza Parlor</title>
+    <title>Jimmy's Pizza Parlor</title>
   </head>
   <body>
+    <header>Jimmy's Pizza Parlor</header>
+    <div class="container">
+      <form id="pizzaPrice">
+        <div class="radio">
+          <label>
+            <input type="radio" name="size" value="1" checked>
+            Xtra Small
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="size" value="2">
+            Small
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="size" value="3">
+            Medium
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="size" value="4">
+            Large
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="size" value="5">
+            Xtra Large
+          </label>
+        </div>
+        <select class="form-control" id="topping1">
+          <option>Anchovies</option>
+          <option>Pineapple</option>
+          <option>Cannadian Bacon</option>
+          <option>Pepperoni</option>
+        </select>
+        <select class="form-control" id="topping2">
+          <option>Anchovies</option>
+          <option>Pineapple</option>
+          <option>Cannadian Bacon</option>
+          <option>Pepperoni</option>
+        </select>
+        <input type="checkbox" name="toppings" value="bike"> Riding a bike.<br>
+        <input type="checkbox" name="toppings" value="car">Driving a car.<br>
+        <input type="checkbox" name="toppings" value="carpool">Carpooling with others.<br>
+        <button type="submit">How Much?</button>
+      </form>
+    </div>
   </body>
 </html>
