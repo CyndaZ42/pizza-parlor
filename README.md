@@ -36,6 +36,10 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 >Test: "It should return a Pizza object with two properties for toppings and size"  
 >Code: const myPizza = new Pizza(["anchovies", "pineapple"], "medium");  
 >Expected Output: Pizza { toppings: ["anchovies", "pineapple"], size: "medium" }  
+> 
+>Test: "It should return a Pizza object with three properties for toppings, amount of toppings, and size"  
+>Code: const myPizza = new Pizza(["anchovies", "pineapple"], 5, "medium");  
+>Expected Output: Pizza { toppings: ["anchovies", "pineapple"], amountOfToppings: 5, size: "medium" }  
 
 ## License
 
