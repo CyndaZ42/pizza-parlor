@@ -41,6 +41,13 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 >Code: const myPizza = new Pizza(["anchovies", "pineapple"], 5, "medium");  
 >Expected Output: Pizza { toppings: ["anchovies", "pineapple"], amountOfToppings: 5, size: "medium" }  
 
+>Describe: Pizza.getPrice()
+>
+>Test: "It should return a price for the pizza object"  
+>Code: myPizza.getPrice();  
+>Expected Output: 10
+> 
+
 ## License
 
 Copyright (c) _2022_ _Zac Waggoner_
