@@ -9,47 +9,55 @@
     <title>Jimmy's Pizza Parlor</title>
   </head>
   <body>
-    <header>Jimmy's Pizza Parlor</header>
+    <header> <img src="img/favicon.png" alt="Jimmy's Pizza"> Jimmy's Pizza Parlor</header>
     <div class="container">
-      <form id="pizzaPrice">
-        <div class="radio" id="size">
-          <label>
-            <input type="radio" name="size" value="1" checked>
-            Xtra Small
-          </label>
+      <h1> How would you like your pizza today?</h1>
+      <br>
+      <div class="row">
+        <form id="pizzaPrice">
+          <div class="option">
+            <div class="radio">
+              <label>
+                <input type="radio" name="size" value="5">
+                Xtra Large
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="size" value="4">
+                Large
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="size" value="3">
+                Medium
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="size" value="2">
+                Small
+              </label>
+            </div>
+            <div class="radio" id="size">
+              <label>
+                <input type="radio" name="size" value="1" checked>
+                Xtra Small
+              </label>
+            </div>
+            </select>
+          </div>
+          <div class="option">
+            <input type="checkbox" name="toppings" value="1 Cheese">Cheese<br>
+            <input type="checkbox" name="toppings" value="2 Pepperoni">Pepperoni<br>
+            <input type="checkbox" name="toppings" value="3 Anchovies">Anchovies<br>
+            <input type="checkbox" name="toppings" value="3 Pineapple">Pineapple<br>
+            <input type="checkbox" name="toppings" value="2 Cannadian Bacon">Cannadian Bacon<br>
+            <input type="checkbox" name="toppings" value="17 🗿">🗿<br>
+            <br>
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="size" value="2">
-            Small
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="size" value="3">
-            Medium
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="size" value="4">
-            Large
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="size" value="5">
-            Xtra Large
-          </label>
-        </div>
-        </select>
-        <input type="checkbox" name="toppings" value="1 Cheese">Cheese<br>
-        <input type="checkbox" name="toppings" value="3 Anchovies">Anchovies<br>
-        <input type="checkbox" name="toppings" value="3 Pineapple">Pineapple<br>
-        <input type="checkbox" name="toppings" value="2 Cannadian Bacon">Cannadian Bacon<br>
-        <input type="checkbox" name="toppings" value="2 Pepperoni">Pepperoni<br>
-        <input type="checkbox" name="toppings" value="37 🗿">🗿<br>
-        <br>
         <button type="submit">How Much?</button>
       </form>
       <div id="output">

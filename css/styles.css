@@ -1,0 +1,32 @@
+body {
+  background-image: url(/img/background.png);
+}
+
+header {
+  font-size: 72pt;
+  font-style: italic;
+  font-family: impact;
+  text-shadow: 3px 3px rgb(249, 218, 43);
+  border: 0.6rem ridge rgba(111, 111, 111, 0.918);
+  border-radius: 0.3rem;
+  margin-block: 20pt;
+  background-image: url(/img/pizza.png);
+}
+
+h1 {
+  text-shadow: 3px 3px rgb(249, 218, 43);
+}
+
+header img {
+  max-height: 76pt;
+}
+
+.option {
+  background-color: aliceblue;
+  flex: 0 0 33.333333%;
+  padding: 20pt;
+  border: 0.6rem ridge rgba(111, 111, 111, 0.918);
+  text-align: justify;
+  border-radius: 0.3rem;
+  margin-block: 20pt;
+}
